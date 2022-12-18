@@ -38,7 +38,7 @@ div.main {
 	background-color: white;
 	border-radius: 15px;
 
-	min-height: 350vh;
+	min-height: 400vh;
 }
 
 ul.menu {
@@ -250,6 +250,21 @@ div.languages {
 ul.lang {
 	font-size: 18px;
 	font-weight: bold;
+}
+
+/* Code example */
+
+div.code-example {
+	float: left;
+
+	margin: 25px;
+	width: calc(100% - 50px);
+}
+
+pre {
+	padding: 15px 0;
+	background-color: #333;
+	color: white;
 }
 
 /* Footer */
