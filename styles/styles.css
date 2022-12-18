@@ -16,6 +16,14 @@ body {
 	height: auto;
 }
 
+h1 {
+	font-size: 48px;
+}
+
+a:visited {
+	color: white;
+}
+
 div.content-wrapper {
 	width: 65%;
 	margin: auto;
@@ -97,6 +105,10 @@ img.avatar {
 
 	width: 250px;
 	height: 250px;
+}
+
+p.profession {
+	font-size: 30px;
 }
 
 div.info {
