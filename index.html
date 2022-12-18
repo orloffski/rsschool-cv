@@ -1,17 +1,366 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
- 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
- 
-  <link rel="stylesheet" href="styles.css">
- 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<title>Orlovski CV</title>
+
+	<link rel="stylesheet" type="text/css" href="/styles/styles.css">
 </head>
- 
 <body>
-  <script src="js/scripts.js"></script>
+	<div class="content-wrapper">
+		<div class="navigation">
+			<header>
+				<nav>
+					<ul class="menu">
+						<li class="menu no-list-style">
+							<a href="#">Main</a>
+						</li>
+						<li class="menu no-list-style">
+							<a href="#expirience" class="nav-link">Expirience</a>
+						</li>
+						<li class="menu no-list-style">
+							<a href="#skills">Skills</a>
+						</li>
+						<li class="menu no-list-style">
+							<a href="#educations" class="nav-link">Education</a>
+						</li>
+						<li class="menu no-list-style">
+							<a href="#projects" class="nav-link">Projects</a>
+						</li>
+						<li class="menu no-list-style">
+							<a href="#languages" class="nav-link">Languages</a>
+						</li>
+						<li class="menu no-list-style">
+							<a href="#code-example" class="nav-link">Code example</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+		<div class="main">
+			<main>
+				<section id="about">
+					<div class="avatar">
+						<img class="avatar" src="/images/avatar.jpg" alt="avatar">
+					</div>
+					<div class="info">
+						<div>
+							<h1 class="text-center">Orlovski Evgen</h1>
+							<p class="text-center">3D Artist, programmer</p>
+
+							<ul class="links text-center">
+								<li class="no-list-style">
+									<a href="https://github.com/orloffski" class="no-decoration">
+										<i class="fa-brands fa-github"></i> GitHub
+									</a>
+								</li>
+								<li class="no-list-style">
+									<a href="mailto:orloffski@gmail.com" class="no-decoration">
+										<i class="fa-solid fa-envelope"></i> E-mail
+									</a>
+								</li>
+								<li class="no-list-style">
+									<a href="tel:+375295449757" class="no-decoration">
+										<i class="fa-solid fa-phone"></i> Phone
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<div id="expirience" class="expirience">
+						<h2>Expirience</h2>
+
+						<div class="card">
+							<div class="container">
+								<p class="work-title">
+									2022 - Now
+								</p>
+								<p class="work-title">
+									System Administrator
+								</p>
+							  	<p class="work-description">
+									System administrator of a state enterprise
+								</p>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="container">
+								<p class="work-title">
+									05.2021 - 02.2022
+								</p>
+								<p class="work-title">
+									Salesforce developer
+								</p>
+							  	<p class="work-description">
+									Maintenance of the company's functionality and development of new solutions
+								</p>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="container">
+								<p class="work-title">
+									08.2020 - 05.2021
+								</p>
+								<p class="work-title">
+									Salesforce developer
+								</p>
+							  	<p class="work-description">
+									Work in a subcontractor in Minsk
+								</p>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="container">
+								<p class="work-title">
+									11.2018 - 03.2020
+								</p>
+								<p class="work-title">
+									1C developer
+								</p>
+							  	<p class="work-description">
+									Work in MiSoft
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<div id="skills" class="skills">
+						<h2>Skills</h2>
+
+						<p class="skill-name">
+							HTML
+						</p>
+						<div class="skill-container">
+  							<div class="skill html">
+								10%
+							</div>
+						</div>
+
+						<p class="skill-name">
+							CSS
+						</p>
+						<div class="skill-container">
+  							<div class="skill css">
+								10%
+							</div>
+						</div>
+
+						<p class="skill-name">
+							JS
+						</p>
+						<div class="skill-container">
+  							<div class="skill js">
+								25%
+							</div>
+						</div>
+
+						<p class="skill-name">
+							Salesforce
+						</p>
+						<div class="skill-container">
+  							<div class="skill salesforce">
+								90%
+							</div>
+						</div>
+
+						<p class="skill-name">
+							1C
+						</p>
+						<div class="skill-container">
+  							<div class="skill one-c">
+								90%
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<div id="educations" class="educations">
+						<h2>Education</h2>
+
+						<div class="card edu-card">
+							<div class="container">
+								<p class="work-title">
+									MSHREC, 2008-2012
+								</p>
+							  	<p class="work-description">
+									Minsk State Higher Radio Engineering College, Information Technology.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<div id="projects" class="projects">
+						<h2>Projects</h2>
+
+						<div class="card project-card">
+							<img src="https://github.com/orloffski/guitar/raw/main/Screenshot_3.png" alt="Guitar" style="width:100%">
+							<div class="container">
+								<p class="work-title">
+									Guitar
+								</p>
+							  	<p class="work-description">
+									3D model, created in Blender.
+									<br>
+									<a href="https://github.com/orloffski/guitar">Link to model</a>
+								</p>
+							</div>
+						</div>
+
+						<div class="card project-card">
+							<img src="https://github.com/orloffski/traffic_light/raw/main/preview.png" alt="Traffic light" style="width:100%">
+							<div class="container">
+								<p class="work-title">
+									Traffic light
+								</p>
+							  	<p class="work-description">
+									3D model, created in Blender.
+									<br>
+									<a href="https://github.com/orloffski/traffic_light">Link to model</a>
+								</p>
+							</div>
+						</div>
+
+						<div class="card project-card">
+							<img src="https://github.com/orloffski/KainoBlenderWagon/raw/main/render%20result.png" alt="Stylized wagon" style="width:100%">
+							<div class="container">
+								<p class="work-title">
+									Stylized wagon
+								</p>
+							  	<p class="work-description">
+									3D model, created in Blender.
+									<br>
+									<a href="https://github.com/orloffski/KainoBlenderWagon">Link to scene</a>
+								</p>
+							</div>
+						</div>
+
+						<div class="card project-card">
+							<img src="https://github.com/orloffski/mechanism/raw/main/render.png" alt="Mechanism" style="width:100%">
+							<div class="container">
+								<p class="work-title">
+									Animated mechanism
+								</p>
+							  	<p class="work-description">
+									3D model, created in Blender.
+									<br>
+									<a href="https://github.com/orloffski/mechanism">Link to scene</a>
+								</p>
+							</div>
+						</div>
+
+						<div class="card project-card">
+							<img src="https://github.com/orloffski/KainoBlenderStart/raw/main/%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_viber_2022-07-06_17-03-51-677.jpg" alt="Cow scene" style="width:100%">
+							<div class="container">
+								<p class="work-title">
+									Animated cow scene
+								</p>
+							  	<p class="work-description">
+									3D model, created in Blender.
+									<br>
+									<a href="https://github.com/orloffski/KainoBlenderStart">Link to scene</a>
+								</p>
+							</div>
+						</div>
+
+						<div class="card project-card">
+							<img src="https://github.com/orloffski/KainoPhone/raw/main/render.jpg" alt="Phone" style="width:100%">
+							<div class="container">
+								<p class="work-title">
+									Animated phone
+								</p>
+							  	<p class="work-description">
+									3D model, created in Blender.
+									<br>
+									<a href="https://github.com/orloffski/KainoPhone">Link to scene</a>
+								</p>
+							</div>
+						</div>
+
+						<div class="card project-card">
+							<img src="https://github.com/orloffski/Drone/raw/main/preview.jpg" alt="Battle drone" style="width:100%">
+							<div class="container">
+								<p class="work-title">
+									Battle drone
+								</p>
+							  	<p class="work-description">
+									3D model, created in Blender.
+									<br>
+									<a href="https://github.com/orloffski/Drone">Link to model</a>
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</section>
+
+				<section>
+					<div id="languages" class="languages">
+						<h2>Languages</h2>
+
+						<ul class="lang">
+							<li>
+								Russian (native)
+							</li>
+							<li>
+								Belarusian (native)
+							</li>
+							<li>
+								English A2 (B1 in progress)
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<section>
+					<div id="code-example" class="code-example">
+						<h2>Code example</h2>
+						<code>
+							<pre>
+								return new Promise((resolve, reject) => {
+									const worker = new Worker(__workerFile, {
+										workerData: coreNumber
+									})
+									worker.on('message', (message) => {
+										resolve({status:'resolved', data:message});
+									})A
+									worker.on('error', (error) => {
+										resolve({status:'error', data:null});
+									})
+								})
+							</pre>
+						</code>
+					</div>
+				</section>
+			</main>
+		</div>
+		<div class="footer">
+			<footer>
+				<a href="https://github.com/orloffski" class="no-decoration">
+					GitHub
+				</a>
+
+				2022
+
+				<a href="https://rs.school/js/">
+					<img class="rs-link" src="/images/rs_school_js.svg" alt="RS School JS Course">
+				</a>
+			</footer>
+		</div>
+	</div>
+
+	<script src="https://kit.fontawesome.com/55e609f158.js" crossorigin="anonymous"></script>
 </body>
 </html>
